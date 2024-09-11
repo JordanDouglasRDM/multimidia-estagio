@@ -1,7 +1,7 @@
 <?php
 
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=rce', 'root', 'admin', [
+    $pdo = new PDO('mysql:host=localhost;dbname=teste_jordan', 'root', '', [
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ,
     ]);
 

@@ -1,7 +1,7 @@
 <?php
 
 global $pdo;
-require_once 'C:\meusprojetos\exemplo\backend\app\config\database.php';
+require_once 'C:\xampp\htdocs\multimidia-estagio\projeto1\backend\app\config\database.php';
 
 
 $statement = $pdo->query("SELECT * FROM users;");
